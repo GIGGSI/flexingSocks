@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
+import ProductsPage from "./pages/ProductsPage";
+import SingleProductPage from "./pages/SingleProductPage";
+import ContactPage from "./pages/ContactPage";
+import DefaultPage from "./pages/DefaultPage";
+import CartPage from "./pages/CartPage";
+import Navbar from './components/Navbar'
+import Sidebar from "./components/Sidebar";
+import SideCart from "./components/SideCart";
+import Footer from "./components/Footer";
+import ScrollToTop from './components/ScrollToTop';
+
+class App extends Component {
+    render() {
+        return (
+            <>
+                <Navbar />
+                <ScrollToTop />
+                <Sidebar />
+                <SideCart />
+                <Switch>
+                    <Route path="/" exact component={HomePage} />
+                    <Route path="/about" component={AboutPage} />
+                    <Route path="/contact" component={ContactPage} />
+                    <Route path="/products" exact component={ProductsPage} />
+                    <Route path="/products/:id" component={SingleProductPage} />
+                    <Route path="/cart" component={CartPage} />
+                    <Route component={DefaultPage} />
+                </Switch>
+                <Footer />
+            </>
+        );
+    }
 }
 
 export default App;
