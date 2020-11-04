@@ -2,6 +2,7 @@
 
 :root {
   --primaryColor: #5fb7ea;
+  --secondPrimary: #ffb30f;
   --primaryRGBA: rgba(0, 0, 0, 0.3);
   --mainGray: #fafafa;
   --darkGray: #5f5e5e;
@@ -34,16 +35,23 @@ body {
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  outline: 2px solid var(--primaryColor);
-  outline-offset: 4px;
+  /* outline: 2px solid var(--primaryColor); */
+  /* outline-offset: 4px; */
   border: none;
+  border-radius: 5rem;
+
   transition: var(--mainTransition);
 }
 .main-link:hover {
-  background-color: var(--darkGray);
+  background-color: var(--secondPrimary);
   text-decoration: none;
-  color: var(--primaryColor);
-  outline-color: var(--darkGray);
+  color: #fff;
+  outline-color: var(--secondPrimary);
+  border-radius: 5rem;
+  box-shadow: 0 0 0pt 5pt var(--secondPrimary);
+  font-weight: bold;
+
+
 }
 .cart-icon {
   cursor: pointer;

@@ -43,7 +43,8 @@ class ProductProvider extends Component {
         let storeProducts = products.map(item => {
             const { id } = item.sys;
             const image = item.fields.image.fields.file.url;
-            const product = { id, ...item.fields, image };
+            const images = item.fields;
+            const product = { id, ...item.fields, image, images };
 
             return product;
         });
@@ -94,7 +95,7 @@ class ProductProvider extends Component {
         })
 
         subTotal = parseFloat(subTotal.toFixed(2));
-        let tax = subTotal * 0.2;
+        let tax = subTotal * 0.0;
         tax = parseFloat(tax.toFixed(2));
         let total = subTotal + tax;
         total = parseFloat(total.toFixed(2));
@@ -113,7 +114,7 @@ class ProductProvider extends Component {
         this.setState({
             cartItems: totals.cartItems,
             cartSubTotal: totals.subTotal,
-            cartTax: totals.tax,
+            // cartTax: totals.tax,
             cartTotal: totals.total
         })
     }

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { ProductConsumer } from '../context'
 
 
@@ -16,8 +17,8 @@ export default function Footer() {
 
                         </div>
                         <div className="col-md-6 d-flex justify-content-around">
-                            {value.socialIcons.map(item => <a href={item.path}
-                                key={item.id} >{item.icon}</a>)}
+                            {value.socialIcons.map(item => <a key={item.id} href={item.url} target="_blank"
+                            >{item.icon}</a>)}
                         </div>
 
                     </div>
