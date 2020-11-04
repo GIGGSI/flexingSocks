@@ -35,7 +35,7 @@ export default function Product({ product }) {
                                     {product.title}
                                 </p>
                                 <p className="mb-9 text-main">
-                                    ${product.price}
+                                    {product.price.toFixed(2)} лв.
                                 </p>
                             </div>
                         </div>

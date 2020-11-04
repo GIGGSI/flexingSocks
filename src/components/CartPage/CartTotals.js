@@ -10,7 +10,7 @@ export default function CartTotals() {
                 } = value;
                 return <div className="col text-title text-center my-4">
                     <button className="btn btn-outline-danger 
-                    text-capitalize mb-4" onClick={clearCart}>clear cart</button>
+                    text-capitalize mb-4" onClick={clearCart}>изчисти кошницата</button>
                     <h3>сума : {cartSubTotal} лв.</h3>
                     <h3>такса : {cartTax} лв.</h3>
                     <h3>крайна цена: {cartTotal} лв.</h3>

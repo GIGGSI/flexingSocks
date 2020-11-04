@@ -10,14 +10,14 @@ export default function Products() {
             const { filteredProducts } = value;
             return <section className="py-5">
                 <div className="container">
-                    <Title title="our products" center />
+                    <Title title="нашите чорапи" center />
 
                     <FilteredProducts />
                     {/* row */}
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <h6 className="text-title">
-                                total products: {filteredProducts.length}
+                                общо продукти: {filteredProducts.length}
                             </h6>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ export default function Products() {
                         {
                             filteredProducts.length === 0 ? (
                                 <div className="col text-title text-center">
-                                    sorry, no items matched your search
+                                    няма съвпадения на търсения продукт
                                 </div>
                             ) :
                                 (

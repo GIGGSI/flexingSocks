@@ -21,7 +21,7 @@ export default function FilteredProducts() {
                         <FilterWrapper>
                             {/* text search*/}
                             <div>
-                                <label htmlFor="search">search products</label>
+                                <label htmlFor="search">търси чорапи</label>
                                 <input
                                     type="text"
                                     name="search"
@@ -36,7 +36,7 @@ export default function FilteredProducts() {
                             <div>
                                 <label
                                     htmlFor="company">
-                                    company
+                                    производител
                                 </label>
                                 <select
                                     name="company"
@@ -57,7 +57,7 @@ export default function FilteredProducts() {
                             <div>
                                 <label htmlFor="price">
                                     <p className="mb-2">
-                                        product price : <span>$ {price}</span>
+                                        цена : <span> {price} лв.</span>
                                     </p>
                                 </label>
                                 <input type="range"
@@ -74,7 +74,7 @@ export default function FilteredProducts() {
                             <div>
                                 <label htmlFor="shipping"
                                     className="mx-2">
-                                    free shipping
+                                    безплатна доставка
                                 </label>
                                 <input type="checkbox"
                                     name="shipping"

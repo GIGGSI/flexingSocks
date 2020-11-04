@@ -2,83 +2,125 @@ export const items = [
   {
     sys: { id: 0 },
     fields: {
-      title: "google pixel - black",
-      price: 10,
-      company: "google",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Бисквитко",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: true,
-      image: { fields: { file: { url: "img/product-0.png" } } }
+      image: { fields: { file: { url: "socks/1.png" } } }
     }
   },
   {
     sys: { id: 1 },
 
     fields: {
-      title: "samsung s7 - white",
-      price: 20,
-      company: "samsung",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Ананасчета",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-1.png" } } }
+      image: { fields: { file: { url: "socks/blueP.png" } } }
     }
   },
   {
     sys: { id: 2 },
 
     fields: {
-      title: "htc 10 - black",
-      price: 30,
-      company: "htc",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Люти чушленца",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-2.png" } } }
+      image: { fields: { file: { url: "socks/chilly.png" } } }
     }
   },
   {
     sys: { id: 3 },
 
     fields: {
-      title: "htc 10 - white",
-      price: 15,
-      company: "htc",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Бекон с ясйца",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-3.png" } } }
+      image: { fields: { file: { url: "socks/eggsANDham.png" } } }
     }
   },
   {
     sys: { id: 4 },
 
     fields: {
-      title: "samsung s7 - black",
-      price: 45,
-      company: "google",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Розови бананчета",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-4.png" } } }
+      image: { fields: { file: { url: "socks/pinkBannana.png" } } }
     }
   },
   {
     sys: { id: 5 },
 
     fields: {
-      title: "samsung galaxy A8 - black",
-      price: 55,
-      company: "samsung",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Пица",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-5.png" } } }
+      image: { fields: { file: { url: "socks/pizza.png" } } }
     }
   },
 
@@ -86,96 +128,145 @@ export const items = [
     sys: { id: 6 },
 
     fields: {
-      title: "fuji X100s photo camera",
-      price: 90,
-      company: "fuji",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Хамбургерчета",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: true,
 
-      image: { fields: { file: { url: "img/product-6.png" } } }
+      image: { fields: { file: { url: "socks/hamburger.jpg" } } }
     }
   },
   {
     sys: { id: 7 },
 
     fields: {
-      title: "canon Eos 30 photo camera",
-      price: 120,
-      company: "canon",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Безалкохолно",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-7.png" } } }
+      image: { fields: { file: { url: "socks/kola.jpg" } } }
     }
   },
   {
     sys: { id: 8 },
 
     fields: {
-      title: "nikon D 3100 photo camera",
-      price: 55,
-      company: "nikon",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Пица",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-8.png" } } }
+      image: { fields: { file: { url: "socks/pizza.png" } } }
     }
   },
   {
     sys: { id: 9 },
 
     fields: {
-      title: "acer desktop computer",
-      price: 35,
-      company: "acer",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Жълти черешки",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: true,
 
-      image: { fields: { file: { url: "img/product-9.png" } } }
+      image: { fields: { file: { url: "socks/yellowCherry.png" } } }
     }
   },
   {
     sys: { id: 10 },
 
     fields: {
-      title: "hp desktop computer",
-      price: 75,
-      company: "hp",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Супер Марио",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
 
-      image: { fields: { file: { url: "img/product-10.png" } } }
+      image: { fields: { file: { url: "socks/superMario.png" } } }
     }
   },
   {
     sys: { id: 11 },
 
     fields: {
-      title: "lenovo desktop computer",
-      price: 110,
-      company: "lenovo",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Маймунка и Банани",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
-      image: { fields: { file: { url: "img/product-11.png" } } }
+      image: { fields: { file: { url: "socks/bannana.png" } } }
     }
   },
   {
     sys: { id: 12 },
 
     fields: {
-      title: "dell desktop computer",
-      price: 28,
-      company: "dell",
-      description:
-        "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
+      title: "Папагал",
+      price: 7,
+      company: "Flexing Socks",
+      subInfo: 'Създадени, за да правят деня ти щастлив!',
+      info: [
+        'Ръчно кетеловане',
+        'Комфортен ластик',
+        'Меки и приятни на допир',
+        'Подсилени пета и пръсти',
+        'Пениран памук'
+      ],
+      description: "Заредете се с добро настроение и го предайте на другите. Колекцията на Flexing Socks е създадена, за да донесе радост в ежедневието Ви. Рай за Вашите крака, красив дизайн за Вашите очи и усмивка за Вашето лице. Това е оригинален подарък, с който да зарадвате близък човек или себе си.",
       featured: false,
-      image: { fields: { file: { url: "img/product-12.png" } } }
+      image: { fields: { file: { url: "socks/tocan.png" } } }
 
     }
   }

@@ -11,8 +11,9 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-md-6">
                             <p className="text-capitalize">
-                                copyright &copy; flexing socks{new Date().getFullYear}. all right reserved{" "}
+                                copyright &copy; <a href="https://sto-portfolio.netlify.app/" target="_blank"> Stoyan Spasov </a>{new Date().getFullYear}. all right reserved{" "}
                             </p>
+
                         </div>
                         <div className="col-md-6 d-flex justify-content-around">
                             {value.socialIcons.map(item => <a href={item.path}
@@ -38,6 +39,14 @@ color:var(--mainWhite);
     color:var(--primaryColor);
     cursor:pointer;
 
+}
+a{
+    text-decoration:none;
+    color: #fff;
+}
+a:hover{
+    color:var(--primaryColor)
+    
 }
 `
 

@@ -10,8 +10,8 @@ export default function HomePage() {
 
     return (
         <>
-            <Hero title="чорапите които обичаме" max="true">
-                <h3>Търсиш новите си любими модели?</h3>
+            <Hero title="чорапите които обичаме" max="true" className="font-weight-bold text-center" >
+                <h3 className="text-center font-weight-bold">Търсиш новите си любими модели?</h3>
                 <Link to='/products' className="main-link"
                     style={{ margin: '2rem' }} >
                     нашите чорапи
