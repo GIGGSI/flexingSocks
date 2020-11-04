@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../Title'
-import aboutBg from '../../images/aboutBcg.jpeg'
+import aboutBg from '../../images/aboutBcg.jpg'
 
 export default function Info() {
     return (
@@ -13,16 +13,16 @@ export default function Info() {
                             style={{ background: "var(--darkGray" }} />
                     </div>
                     <div className="col-10 mx-auto col-md-6 my-3">
-                        <Title title="About Us" />
+                        <Title title="За Flexing Socks" />
                         <p className="text-lead text-muted my-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        </p>
+                            Flexing Socks се отличават с весели и жизнерадостни дамски и мъжки модели. Много от моделите чорапи се предлагат и в дамски и в мъжки размери. Разделили сме различните дизайни в тематични подкатегории, например "Животинки" или "Храна и напитки". Можете да използвате филтрите, за да филтрирате по цвят, материя или размер например.
+                            </p>
                         <p className="text-lead text-muted my-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        </p>
+                            Чорапите са подходящи за различни поводи и празници. А защо да не се обуят просто така, в ежедневието и да повдигнат Вашето настроение. Освен дизайнът обаче е важен и материалът. Произвеждаме нашите чорапи с внимание към дизайна и състава.
+                             </p>
                         <button className="main-link my-2"
                             type="button">
-                            more info
+                            прочети още
                         </button>
                     </div>
                 </div>

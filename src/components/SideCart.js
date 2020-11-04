@@ -21,18 +21,18 @@ export default function SideCart() {
                                 </h6>
                                 <h6 className="text-title
                                  text-capitalize">
-                                    amount: {item.count}
+                                    количество: {item.count}
                                 </h6>
                             </div>
                         </li>
                     })}
                 </ul>
                 <h4 className="text-capitalize text-main">
-                    cart total : ${cartTotal}
+                    общо : {cartTotal}
                 </h4>
                 <div className="text-center my-5">
                     <Link to="/cart" className="main-link">
-                        cart page
+                        кошница
                     </Link>
                 </div>
             </CartWrapper>

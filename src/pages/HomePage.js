@@ -6,14 +6,15 @@ import FeaturedProducts from "../components/HomePage/FeaturedProducts";
 
 
 export default function HomePage() {
- 
+
 
     return (
         <>
-            <Hero title="awesome socks" max="true">
+            <Hero title="чорапите които обичаме" max="true">
+                <h3>Търсиш новите си любими модели?</h3>
                 <Link to='/products' className="main-link"
                     style={{ margin: '2rem' }} >
-                    our products
+                    нашите чорапи
                 </Link>
             </Hero>
             <Services data-aos="fade-up" />

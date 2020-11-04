@@ -11,20 +11,20 @@ export default class Services extends Component {
             {
                 id: 1,
                 icon: <FaDolly />,
-                title: 'Free Shipping',
-                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s. '
+                title: 'Бърза доставка',
+                text: 'Всички налични артикули могат да бъдат доставени с нашите партньори от Еконт в рамките на 4-6 работни дена.'
             },
             {
                 id: 2,
                 icon: <FaRedo />,
-                title: '30 days return policy',
-                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s. '
+                title: 'БЕЗПЛАТНА ДОСТАВКА',
+                text: 'Безплатна достава за поръчки над 89 лв. при плащане в момента на поръчката.'
             },
             {
                 id: 3,
                 icon: <FaDollarSign />,
-                title: 'secured payment',
-                text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s. '
+                title: 'заплащане',
+                text: 'Кредитна/дебитна карта – приемаме всички валидни банкови карти на MasterCard, Visa или Maestro (и American Express, в случай че е приложимо в съответната страна).'
             },
 
         ]

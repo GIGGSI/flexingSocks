@@ -9,7 +9,7 @@ export default function Cart() {
         <section className="py-5">
 
             <div className="container">
-                <Title title="your cart items" center />
+                <Title title="вашите артикули от кошницата" center />
             </div>
 
             <CartColumns />

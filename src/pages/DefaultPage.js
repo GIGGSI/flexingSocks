@@ -10,7 +10,7 @@ export default function DefaultPage() {
             <Hero img={defaultBcg} title="404" max="true" >
                 <h2 className="text-uppercase">page not found</h2>
                 <Link to="/" className="main-link" style={{ marinTop: '2rem' }}>
-                    return home
+                   начална страница
                 </Link>
             </Hero>
 

@@ -16,7 +16,7 @@ export default function CartItem({ cartItem, increment, decrement, removeItem })
         {/* title */}
         <div className="col-10 mx-auto col-lg-2 pb-2">
             <span className="d-lg-none">
-                product :
+                продукт :
             </span>
             {title}
         </div>
@@ -24,9 +24,9 @@ export default function CartItem({ cartItem, increment, decrement, removeItem })
         {/* price */}
         <div className="col-10 mx-auto col-lg-2 pb-2">
             <span className="d-lg-none">
-                price :
+                цена :
             </span>
-            ${price}
+            {price} лв.
         </div>
         {/* end of price */}
         {/* count controls */}
@@ -54,7 +54,7 @@ export default function CartItem({ cartItem, increment, decrement, removeItem })
         {/* item total */}
         <div className="col-10 mx-auto col-lg-2">
             <strong className="text-muted">
-                item total :  ${total}
+                общо :  {total} лв.
             </strong>
 
         </div>

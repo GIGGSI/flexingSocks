@@ -13,7 +13,7 @@ export default function CartList() {
 
                             if (cart.length === 0) {
                                 return <h1 className="text-title text-center my-4">
-                                    Your cart is currently empty</h1>
+                                    вашата кошница е празна</h1>
                             }
                             return (<>
                                 {cart.map(item => (<CartItem key={item.id}

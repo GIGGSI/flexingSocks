@@ -1,26 +1,26 @@
 export const linkData = [
     {
         id: 1,
-        text: 'home',
+        text: 'начало',
         path: '/'
     },
     {
         id: 2,
-        text: 'about',
+        text: 'за нас',
         path: '/about'
     },
     {
         id: 3,
-        text: 'products',
+        text: 'продукти',
         path: '/products'
     },
     {
         id: 4,
-        text: 'contact',
+        text: 'контакти',
         path: '/contact'
     }, {
         id: 5,
-        text: 'cart',
+        text: 'кошница',
         path: '/cart'
     }
 ]
