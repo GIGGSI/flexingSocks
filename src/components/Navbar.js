@@ -21,7 +21,7 @@ export default function Navbar() {
                         </Link>
                         <div className="nav-cart">
                             <FaCartPlus className="nav-icon"
-                                s onClick={handleCart}
+                                onClick={handleCart}
                             />
                             <div className="cart-items">{cartItems}</div>
                         </div>
@@ -64,7 +64,7 @@ margin: 0 auto;
     font-size:0.85rem;
     position:absolute;
     top:-8px;
-    right:--8px;
+    right:-8px;
     padding:0 5px;
      border-radius:50%;
 

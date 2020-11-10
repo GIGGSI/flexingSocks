@@ -16,6 +16,7 @@ import Sidebar from "./components/Sidebar";
 import SideCart from "./components/SideCart";
 import Footer from "./components/Footer";
 import ScrollToTop from './components/ScrollToTop';
+import CashDesk from "./pages/CashDesk";
 
 class App extends Component {
     render() {
@@ -32,8 +33,12 @@ class App extends Component {
                     <Route path="/products" exact component={ProductsPage} />
                     <Route path="/products/:id" component={SingleProductPage} />
                     <Route path="/cart" component={CartPage} />
+
+                    <Route path='/cashdesk' component={CashDesk} />
                     <Route component={DefaultPage} />
                 </Switch>
+
+
                 <Footer />
             </>
         );

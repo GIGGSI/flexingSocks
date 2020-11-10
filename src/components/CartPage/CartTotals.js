@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProductConsumer } from '../../context';
+import {Link} from "react-router-dom";
 
 
 export default function CartTotals() {
@@ -18,6 +19,9 @@ export default function CartTotals() {
                         {/* <h3>сума : {cartSubTotal} лв.</h3>
                     <h3>такса : {cartTax} лв.</h3> */}
                         <h3>крайна цена: {cartTotal} лв.</h3>
+                        <Link to="/cashdesk" className="main-link">
+                            касата
+                        </Link>
                     </div>
                 }
 
