@@ -1,5 +1,4 @@
 import React from "react";
-import platej from '../../images/bg_cod.svg'
 import Payment from "./Payment";
 import Order from "./Order";
 

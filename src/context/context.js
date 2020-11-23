@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { linkData } from './linkData';
-import { socialData } from './spcialData';
-import { items } from './productData'
+import React, {Component} from 'react';
+import {linkData} from './linkData';
+import {socialData} from './spcialData';
+import {items} from './productData'
 
 const ProductContext = React.createContext();
 
@@ -27,7 +27,8 @@ class ProductProvider extends Component {
         min: 0,
         max: 0,
         company: 'all',
-        shipping: false
+        shipping: false,
+        info: []
 
     }
 
@@ -41,10 +42,10 @@ class ProductProvider extends Component {
     //set products
     setProducts = (products) => {
         let storeProducts = products.map(item => {
-            const { id } = item.sys;
+            const {id} = item.sys;
             const image = item.fields.image.fields.file.url;
             const images = item.fields;
-            const product = { id, ...item.fields, image, images };
+            const product = {id, ...item.fields, image, images};
 
             return product;
         });
@@ -65,7 +66,9 @@ class ProductProvider extends Component {
             price: maxPrice,
             max: maxPrice
 
-        }, () => { this.addTotals() })
+        }, () => {
+            this.addTotals()
+        })
     };
 
     //get cart from local storage
@@ -133,7 +136,7 @@ class ProductProvider extends Component {
         if (!tempItem) {
             tempItem = tempProduct.find(item => item.id === id);
             let total = tempItem.price;
-            let cartItem = { ...tempItem, count: 1, total };
+            let cartItem = {...tempItem, count: 1, total};
 
             tempCart = [...tempCart, cartItem]
 
@@ -144,7 +147,7 @@ class ProductProvider extends Component {
 
         }
         this.setState(() => {
-            return { cart: tempCart }
+            return {cart: tempCart}
         }, () => {
             this.addTotals()
             this.syncStorage()
@@ -158,28 +161,28 @@ class ProductProvider extends Component {
         let product = this.state.storeProducts.find(item => item.id === id);
         localStorage.setItem('singleProduct', JSON.stringify(product));
         this.setState({
-            singleProduct: { ...product },
+            singleProduct: {...product},
             loading: false,
         })
     }
 
     //handle sidebar
     handleSideBar = () => {
-        this.setState({ sidebarOpen: !this.state.sidebarOpen })
+        this.setState({sidebarOpen: !this.state.sidebarOpen})
     }
 
     handleCart = () => {
-        this.setState({ cartOpen: !this.state.cartOpen })
+        this.setState({cartOpen: !this.state.cartOpen})
     }
 
     //close cart
     closeCart = () => {
-        this.setState({ cartOpen: false })
+        this.setState({cartOpen: false})
     }
 
     //open
     openCart = () => {
-        this.setState({ cartOpen: true })
+        this.setState({cartOpen: true})
     }
 
     //cart functionality
@@ -257,7 +260,7 @@ class ProductProvider extends Component {
 
     }
     sortData = () => {
-        const { storeProducts, price, company, shipping, search } = this.state
+        const {storeProducts, price, company, shipping, search} = this.state
         let tempPrice = parseInt(price);
 
         let tempProducts = [...storeProducts];
@@ -289,7 +292,7 @@ class ProductProvider extends Component {
                 })
         }
 
-        this.setState({ filteredProducts: tempProducts })
+        this.setState({filteredProducts: tempProducts})
     }
 
     render() {
@@ -317,4 +320,4 @@ class ProductProvider extends Component {
 
 const ProductConsumer = ProductContext.Consumer;
 
-export { ProductProvider, ProductConsumer }
+export {ProductProvider, ProductConsumer}
